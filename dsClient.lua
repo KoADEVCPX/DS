@@ -29,7 +29,7 @@ end
 
 ----------------------------------------------------- Functions
 
-local Lib = Class({
+Lib = Class({
     constructor = function(self, width, height)
         table.insert(dx.panels, {
             visible = false,
